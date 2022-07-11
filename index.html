@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ella's Guess Game</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <aside class="game-arena" id="game-area">
+      <h2>GUESS THE SECRET NUMBER BETWEEN 1 AND 30</h2>
+      <h3 id="output-text">Enter a number below</h3>
+      <ul class="player-info">
+        <li id="user-player-name">Player Name</li>
+        <li >Your Score: <span id="player-score"> </span></li>
+      </ul>
+        <input type="text" id="user-input" />
+        <button type="submit" id="enter-btn">Enter</button>
+        <button type="reset" id="replay-btn">Replay</button>
+    </aside>
+    <div id="container" class="welcome-page">
+      <h1>welcome to our guess game!</h1>
+      <p id="about">
+        Ella's Guess Game is worn by guessing the secret number correctly <br />
+        the secret number is between <strong> 1 and 30.</strong> <br />Enjoy our
+        game!
+      </p>
+      <form id="login">
+        <div>
+          <label for="player-name">Enter your name to start the game</label>
+          <input type="text" name="player-name" class="player-input" id="player-name" required />
+        </div>
+        <button type="submit" class="start name-btn disable">start</button> 
+      </form>
+    <script src="app.js"></script>
+  </body>
+</html>
