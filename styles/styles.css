@@ -171,9 +171,11 @@ strong {
     margin: 3rem auto;
   }
   #container {
-    width: 100%;
-
-    height: 40rem;
+    width: 100wh;
+    
+  
+  
+    
   }
   #container h1 {
     font-size: 1.5rem;
